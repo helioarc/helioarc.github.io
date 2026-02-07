@@ -63,11 +63,14 @@ a:hover{text-decoration:underline}
 }
 
 .brand img{
-  width:44px; height:44px; border-radius:10px;
-  object-fit:cover;
+  width:68px;          /* bigger logo */
+  height:68px;
+  border-radius:14px;
+  object-fit:contain; /* better for logos */
   border:1px solid var(--border);
   background: rgba(255,255,255,.04);
   display:block;
+  padding:6px;        /* breathing space */
 }
 
 .brand b{font-size:16px; letter-spacing:.4px}
