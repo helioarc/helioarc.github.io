@@ -1,14 +1,22 @@
 :root{
+  /* Brand colors from HelioArc logo */
+  --brand:#1f4fd8;     /* Deep blue (logo blue) */
+  --accent:#f5c542;    /* Yellow / gold (logo accent) */
+
+  /* Background & UI */
   --bg:#0b0f14;
   --panel:#111824;
   --panel2:#0f1520;
+
+  /* Text */
   --text:#e8eef7;
   --muted:#a7b3c6;
-  --brand:#18a0fb;
-  --accent:#3ddc97;
+
+  /* Borders & effects */
   --border:rgba(255,255,255,.08);
   --shadow: 0 10px 30px rgba(0,0,0,.35);
 }
+
 
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
