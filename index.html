@@ -4,6 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HelioArc | Electrical • Energy • Automation</title>
+
+  <!-- SEO -->
+  <meta name="description" content="HelioArc provides electrical installation for residential, commercial and industrial projects, energy equipment integration, and controls & automation services." />
+  <meta name="keywords" content="HelioArc, electrical installation, commercial electrical, industrial electrical, automation, controls, energy equipment, commissioning, Bangladesh, Singapore" />
+  <meta name="author" content="HelioArc" />
+
+  <!-- Social Preview -->
+  <meta property="og:title" content="HelioArc | Electrical • Energy • Controls & Automation" />
+  <meta property="og:description" content="Electrical installation, energy equipment integration, and industrial controls & automation for residential, commercial, and industrial projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://helioarc.github.io/" />
+  <meta property="og:image" content="https://helioarc.github.io/logo.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HelioArc" />
+  <meta name="twitter:description" content="Electrical • Energy • Controls & Automation" />
+  <meta name="twitter:image" content="https://helioarc.github.io/logo.jpg" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -119,18 +137,49 @@
     <div class="section" id="contact">
       <h2>Location</h2>
       <p style="color:var(--muted); margin-top:0;">
-        Add your exact office/yard location here. (You can update the map embed anytime.)
+        Find us on Google Maps:
       </p>
 
-      <!-- Google Maps Embed: replace with your actual embed link -->
       <div class="map">
         <iframe
-  src="https://www.google.com/maps?q=22.86850424042896,91.28480598005824&z=16&output=embed"
-  width="100%" height="100%" style="border:0;"
-  allowfullscreen="" loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
+          src="https://www.google.com/maps?q=22.86850424042896,91.28480598005824&z=16&output=embed"
+          width="100%" height="100%" style="border:0;"
+          allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
 
+      <!-- Get Directions button -->
+      <div class="btn-row" style="margin-top:12px;">
+        <a class="btn primary" target="_blank"
+           href="https://www.google.com/maps/dir/?api=1&destination=22.86850424042896,91.28480598005824">
+          Get Directions
+        </a>
+      </div>
+
+      <!-- Contact Form (Formspree - no backend) -->
+      <div class="card" style="margin-top:16px;">
+        <h2>Send us a message</h2>
+        <p style="color:var(--muted); margin-top:0;">
+          Fill in the form below and we will contact you.
+        </p>
+
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div style="display:grid; gap:10px; margin-top:10px;">
+            <input name="name" required placeholder="Your Name">
+            <input type="email" name="email" required placeholder="Your Email">
+            <input name="phone" placeholder="Phone (optional)">
+            <textarea name="message" required rows="5" placeholder="How can we help?"></textarea>
+
+            <button class="btn primary" type="submit" style="cursor:pointer;">
+              Send Message
+            </button>
+          </div>
+        </form>
+
+        <p style="color:var(--muted); font-size:12px; margin-top:10px;">
+          Powered by Formspree (no backend needed). Replace YOUR_FORM_ID with your form ID.
+        </p>
       </div>
     </div>
 
@@ -138,5 +187,13 @@
       © 2026 HelioArc. All rights reserved.
     </div>
   </div>
+
+  <!-- Floating WhatsApp Button -->
+  <a class="wa-float" target="_blank"
+     href="https://wa.me/6598215007?text=Hello%20HelioArc,%20I%20would%20like%20to%20request%20a%20quote."
+     aria-label="Chat on WhatsApp">
+    WhatsApp
+  </a>
+
 </body>
 </html>
