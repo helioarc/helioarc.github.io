@@ -59,6 +59,7 @@ a:hover{text-decoration:underline}
   object-fit:cover;
   border:1px solid var(--border);
   background: rgba(255,255,255,.04);
+  display:block;
 }
 
 .brand b{font-size:16px; letter-spacing:.4px}
@@ -211,9 +212,42 @@ a:hover{text-decoration:underline}
   font-size:13px;
 }
 
+/* Contact form styling */
+input, textarea{
+  width:100%;
+  padding:12px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.03);
+  color: var(--text);
+  outline: none;
+}
+input::placeholder, textarea::placeholder{
+  color: rgba(231,238,247,.55);
+}
+
+/* Floating WhatsApp button */
+.wa-float{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 999;
+  padding: 12px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(61,220,151,.35);
+  background: linear-gradient(180deg, rgba(61,220,151,.30), rgba(61,220,151,.12));
+  color: var(--text);
+  font-weight: 700;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  text-decoration: none;
+}
+.wa-float:hover{
+  text-decoration:none;
+  background: linear-gradient(180deg, rgba(61,220,151,.40), rgba(61,220,151,.16));
+}
+
 @media (max-width: 900px){
   .hero-grid{grid-template-columns: 1fr}
   .grid-3{grid-template-columns: 1fr}
   .projects{grid-template-columns: 1fr}
 }
-
