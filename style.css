@@ -51,8 +51,8 @@ a:hover{text-decoration:underline}
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:12px 0;
-  gap:12px;
+  padding:18px 0;
+  gap:116px;
 }
 
 .brand{
@@ -63,18 +63,18 @@ a:hover{text-decoration:underline}
 }
 
 .brand img{
-  width:68px;          /* bigger logo */
-  height:68px;
-  border-radius:14px;
-  object-fit:contain; /* better for logos */
+  width:84px;
+  height:84px;
+  border-radius:16px;
+  object-fit:contain;
   border:1px solid var(--border);
   background: rgba(255,255,255,.04);
   display:block;
-  padding:6px;        /* breathing space */
+  padding:8px;
 }
 
-.brand b{font-size:16px; letter-spacing:.4px}
-.brand span{display:block; font-size:12px; color:var(--muted)}
+.brand b{font-size:18px; letter-spacing:.5px}
+.brand span{display:block; font-size:13px; color:var(--muted)}
 
 .menu{
   display:flex;
