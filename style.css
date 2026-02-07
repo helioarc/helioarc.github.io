@@ -23,7 +23,7 @@ html,body{margin:0;padding:0}
 body{
   font-family: Arial, Helvetica, sans-serif;
   background:
-    linear-gradient(rgba(11,15,20,.88), rgba(11,15,20,.88)),
+    linear-gradient(rgba(11,15,20,.65), rgba(11,15,20,.65)),
     url("assets/projects/background.png") center / cover no-repeat fixed;
   color: var(--text);
   line-height: 1.6;
@@ -106,12 +106,17 @@ a:hover{text-decoration:underline}
 }
 
 .card{
-  background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  background: linear-gradient(
+    180deg,
+    rgba(15,21,32,.75),
+    rgba(15,21,32,.65)
+  );
   border:1px solid var(--border);
   border-radius:16px;
   padding:18px;
   box-shadow: var(--shadow);
 }
+
 
 .hero h1{
   margin:0 0 8px;
