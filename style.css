@@ -247,17 +247,18 @@ input::placeholder, textarea::placeholder{
   z-index: 999;
   padding: 12px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(245,197,66,.6);
-  background: linear-gradient(180deg, rgba(245,197,66,.45), rgba(245,197,66,.22));
-  color:#111;
+  border: 1px solid #25D366;
+  background: linear-gradient(180deg, #25D366, #1ebe5d);
+  color:#0b0f14;
   font-weight: 800;
   box-shadow: 0 10px 30px rgba(0,0,0,.35);
   text-decoration: none;
 }
 .wa-float:hover{
   text-decoration:none;
-  background: linear-gradient(180deg, rgba(245,197,66,.55), rgba(245,197,66,.30));
+  background: linear-gradient(180deg, #2eea77, #22c96a);
 }
+
 
 
 @media (max-width: 900px){
